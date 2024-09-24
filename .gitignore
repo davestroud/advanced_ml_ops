@@ -1,0 +1,29 @@
+# Ignore binary and zip files
+lambda_function/bin/
+lambda_function/lambda_function.zip
+
+# Ignore Certifi package directories and metadata
+lambda_function/certifi-2024.8.30.dist-info/
+lambda_function/certifi/
+
+# Ignore Charset Normalizer package directories and metadata
+lambda_function/charset_normalizer-3.3.2.dist-info/
+lambda_function/charset_normalizer/
+
+# Ignore IDNA package directories and metadata
+lambda_function/idna-3.8.dist-info/
+lambda_function/idna/
+
+# Ignore Requests package directories and metadata
+lambda_function/requests-2.32.3.dist-info/
+lambda_function/requests/
+
+# Ignore Urllib3 package directories and metadata
+lambda_function/urllib3-2.2.2.dist-info/
+lambda_function/urllib3/
+
+# Ignore Terraform lock and state files
+s3_terraform_setup/.terraform.lock.hcl
+s3_terraform_setup/.terraform/
+s3_terraform_setup/terraform.tfstate
+s3_terraform_setup/terraform.tfstate.backup
